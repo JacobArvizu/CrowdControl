@@ -27,7 +27,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.getAuthState().observe(viewLifecycleOwner, Observer {
+        viewModel.getAuthState().observe(viewLifecycleOwner, {
             when (it) {
                 is AuthState.Valid -> {
                     Timber.d("AuthState:Valid")
