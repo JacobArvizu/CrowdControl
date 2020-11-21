@@ -14,10 +14,12 @@ import com.google.firebase.auth.FirebaseAuth
 import com.jarvizu.crowdcontrol.R
 import com.jarvizu.crowdcontrol.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import timber.log.Timber
 import javax.inject.Inject
 
 
+@ExperimentalCoroutinesApi
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
@@ -52,18 +54,18 @@ class MainActivity : AppCompatActivity() {
             Timber.d(it.toString())
             if (!isAllGranted(Permission.ACCESS_FINE_LOCATION, Permission.ACCESS_COARSE_LOCATION)) {
                 MaterialDialog(this)
-                    .title(R.string.permissions_dialog)
-                    .message(R.string.permissions_denied_dialog)
-                    .show {
-                        positiveButton(R.string.ok_button) { dialog ->
-                            showSystemAppDetailsPage()
+                        .title(R.string.permissions_dialog)
+                        .message(R.string.permissions_denied_dialog)
+                        .show {
+                            positiveButton(R.string.ok_button) {
+                                showSystemAppDetailsPage()
+                            }
+                            negativeButton(R.string.disagree) {
+                                findNavController(R.id.nav_host_fragment_container).navigate(R.id.splashFragment)
+                                finish()
+                                cancel()
+                            }
                         }
-                        negativeButton(R.string.disagree) { dialog ->
-                            findNavController(R.id.nav_host_fragment_container).navigate(R.id.splashFragment)
-                            finish()
-                            cancel()
-                        }
-                    }
             }
         }
     }

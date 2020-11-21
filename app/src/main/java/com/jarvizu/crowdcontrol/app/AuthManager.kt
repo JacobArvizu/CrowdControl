@@ -25,12 +25,12 @@ import javax.inject.Singleton
 
 @Singleton
 class AuthManager @Inject constructor(
-    private val firebaseAuth: FirebaseAuth,
+        private val firebaseAuth: FirebaseAuth,
 ) : AuthHelper {
 
 
     override fun getFirebaseUser(): Flow<FirebaseUser?> =
-        flow { emit(firebaseAuth.currentUser) }
+            flow { emit(firebaseAuth.currentUser) }
 }
 
 

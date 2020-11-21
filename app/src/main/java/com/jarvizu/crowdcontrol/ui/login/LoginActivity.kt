@@ -14,6 +14,7 @@ import com.google.firebase.auth.PhoneAuthProvider
 import com.jarvizu.crowdcontrol.R
 import com.jarvizu.crowdcontrol.databinding.AcitivityLoginBinding
 import dagger.hilt.android.AndroidEntryPoint
+import timber.log.Timber
 import javax.inject.Inject
 
 
@@ -57,16 +58,16 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         MaterialDialog(this)
-            .title(R.string.confirm_exit)
-            .message(R.string.your_message)
-            .show {
-                positiveButton(R.string.agree) { dialog ->
-                    this@LoginActivity.finish()
+                .title(R.string.confirm_exit)
+                .message(R.string.your_message)
+                .show {
+                    positiveButton(R.string.agree) {
+                        this@LoginActivity.finish()
+                    }
+                    negativeButton(R.string.disagree) {
+                        cancel()
+                    }
                 }
-                negativeButton(R.string.disagree) { dialog ->
-                    cancel()
-                }
-            }
         return
     }
 
@@ -79,10 +80,13 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
+        Timber.d(outState.toString())
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
+        Timber.d(savedInstanceState.toString())
+
     }
 
 

@@ -18,10 +18,10 @@ class LoginOtpFragment : Fragment() {
     private lateinit var binding: FragmentOtpScreenBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+    ): View {
         binding = FragmentOtpScreenBinding.inflate(inflater, container, false)
         return binding.root
     }

@@ -14,16 +14,16 @@ import timber.log.Timber
 import java.util.concurrent.TimeUnit
 
 fun LoginActivity.startPhoneVerification(
-    callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks,
-    phoneNumber: String
+        callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks,
+        phoneNumber: String
 ) {
     // [START start_phone_auth]
     val options = PhoneAuthOptions.newBuilder(firebaseAuth)
-        .setPhoneNumber(phoneNumber)       // Phone number to verify
-        .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
-        .setActivity(this)                 // Activity (for callback binding)
-        .setCallbacks(callbacks)          // OnVerificationStateChangedCallbacks
-        .build()
+            .setPhoneNumber(phoneNumber)       // Phone number to verify
+            .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
+            .setActivity(this)                 // Activity (for callback binding)
+            .setCallbacks(callbacks)          // OnVerificationStateChangedCallbacks
+            .build()
     PhoneAuthProvider.verifyPhoneNumber(options)
     // [END start_phone_auth]
 }
@@ -57,8 +57,8 @@ fun LoginActivity.phoneAuthCallbacks(): PhoneAuthProvider.OnVerificationStateCha
                 // The SMS quota for the project has been exceeded
                 // [START_EXCLUDE]
                 Snackbar.make(
-                    findViewById(android.R.id.content), "Quota exceeded.",
-                    Snackbar.LENGTH_SHORT
+                        findViewById(android.R.id.content), "Quota exceeded.",
+                        Snackbar.LENGTH_SHORT
                 ).show()
                 // [END_EXCLUDE]
             }
@@ -66,8 +66,8 @@ fun LoginActivity.phoneAuthCallbacks(): PhoneAuthProvider.OnVerificationStateCha
         }
 
         override fun onCodeSent(
-            verificationId: String,
-            token: PhoneAuthProvider.ForceResendingToken,
+                verificationId: String,
+                token: PhoneAuthProvider.ForceResendingToken,
         ) {
             // The SMS verification code has been sent to the provided phone number, we
             // now need to ask the user to enter the code and then construct a credential
@@ -91,21 +91,21 @@ fun LoginActivity.verifyPhoneNumberWithCode(code: String) {
 // [START sign_in_with_phone]
 fun LoginActivity.signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
     firebaseAuth.signInWithCredential(credential)
-        .addOnCompleteListener(this) { task ->
-            if (task.isSuccessful) {
-                // Sign in success, update UI with the signed-in user's information
-                Timber.d("signInWithCredential:success")
-                startActivity(Intent(this, MainActivity::class.java))
-                finish()
-            } else {
-                // Sign in failed, display a message and update the UI
-                Timber.w("signInWithCredential:failure%s", task.exception.toString())
-                if (task.exception is FirebaseAuthInvalidCredentialsException) {
-                    // The verification code entered was invalid
-                    // [START_EXCLUDE silent]
-                    // [END_EXCLUDE]
-                }
+            .addOnCompleteListener(this) { task ->
+                if (task.isSuccessful) {
+                    // Sign in success, update UI with the signed-in user's information
+                    Timber.d("signInWithCredential:success")
+                    startActivity(Intent(this, MainActivity::class.java))
+                    finish()
+                } else {
+                    // Sign in failed, display a message and update the UI
+                    Timber.w("signInWithCredential:failure%s", task.exception.toString())
+                    if (task.exception is FirebaseAuthInvalidCredentialsException) {
+                        // The verification code entered was invalid
+                        // [START_EXCLUDE silent]
+                        // [END_EXCLUDE]
+                    }
 
+                }
             }
-        }
 }

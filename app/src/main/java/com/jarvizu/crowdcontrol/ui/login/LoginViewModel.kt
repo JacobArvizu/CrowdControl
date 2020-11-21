@@ -8,12 +8,12 @@ import androidx.lifecycle.ViewModel
 import timber.log.Timber
 
 class LoginViewModel @ViewModelInject constructor(
-    @Assisted private val savedStateHandle: SavedStateHandle,
+        @Assisted private val savedStateHandle: SavedStateHandle,
 ) : ViewModel(), LifecycleObserver {
 
 
     fun onLoginSubmitClicked(phoneNumber: String) {
-        Timber.d("Login click submit:%s", phoneNumber.toString())
+        Timber.d("Login click submit:%s", phoneNumber)
 
     }
 }

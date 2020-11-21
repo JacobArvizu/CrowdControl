@@ -1,17 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:fastadapter-extensions-expandable:5.2.2@aar">
     <CLASSES>
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/e2b15b67b6c712b94eba02433ca240fa/jetified-fastadapter-extensions-expandable-5.2.2/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/19c68435af734d6f4f2b8b6e70fc4a11/jetified-fastadapter-extensions-expandable-5.2.2/res" />
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/3b2c381d3a7e27bc08c801b4b430008a/jetified-fastadapter-extensions-expandable-5.2.2/jars/classes.jar!/" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/3b2c381d3a7e27bc08c801b4b430008a/jetified-fastadapter-extensions-expandable-5.2.2/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/3b2c381d3a7e27bc08c801b4b430008a/jetified-fastadapter-extensions-expandable-5.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58f89d29ede52118441243a6ff15136a/jetified-fastadapter-extensions-expandable-5.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58f89d29ede52118441243a6ff15136a/jetified-fastadapter-extensions-expandable-5.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58f89d29ede52118441243a6ff15136a/jetified-fastadapter-extensions-expandable-5.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/41035702df658544fd87ea2100d5d3f0f8b9665a/fastadapter-extensions-expandable-5.2.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/41035702df658544fd87ea2100d5d3f0f8b9665a/fastadapter-extensions-expandable-5.2.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/cf0cb3119bb6884db3892c08d0cc538acd74463f/fastadapter-extensions-expandable-5.2.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/cf0cb3119bb6884db3892c08d0cc538acd74463f/fastadapter-extensions-expandable-5.2.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

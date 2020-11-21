@@ -9,21 +9,21 @@ import com.jarvizu.crowdcontrol.app.CrowdControl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ApplicationComponent
 import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
 
 
 @Module
-@InstallIn(ApplicationComponent::class)
+@InstallIn(SingletonComponent::class)
 object AppModule {
 
     @Provides
     fun provideSharedPreferences(
-        @ApplicationContext application: Context
+            @ApplicationContext application: Context
     ): SharedPreferences {
         return application.getSharedPreferences(
-            CrowdControl.APP_NAME,
-            Context.MODE_PRIVATE
+                CrowdControl.APP_NAME,
+                Context.MODE_PRIVATE
         )
     }
 

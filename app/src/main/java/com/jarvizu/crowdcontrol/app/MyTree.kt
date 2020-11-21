@@ -4,10 +4,10 @@ import timber.log.Timber.DebugTree
 
 open class MyTree : DebugTree() {
     override fun log(
-        priority: Int,
-        tag: String?,
-        message: String,
-        t: Throwable?
+            priority: Int,
+            tag: String?,
+            message: String,
+            t: Throwable?
     ) {
         super.log(priority, "Timber", message, t)
     }

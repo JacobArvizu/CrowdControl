@@ -1,17 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.drakeet.multitype:multitype:4.2.0@aar">
     <CLASSES>
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6e1d918e4a04fad6ec4aa171be7c9207/jetified-multitype-4.2.0/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/f866e2e3c10eec69fd55614541ad9f98/jetified-multitype-4.2.0/res" />
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6421846283587ba8fc36d486c50f503f/jetified-multitype-4.2.0/jars/classes.jar!/" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6421846283587ba8fc36d486c50f503f/jetified-multitype-4.2.0/AndroidManifest.xml" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6421846283587ba8fc36d486c50f503f/jetified-multitype-4.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45d1c0d08554e9777b37316e6bfe524/jetified-multitype-4.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45d1c0d08554e9777b37316e6bfe524/jetified-multitype-4.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e45d1c0d08554e9777b37316e6bfe524/jetified-multitype-4.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.drakeet.multitype/multitype/4.2.0/422dd3dfc6eaac47faced9b6fa94ca2fb9c50d30/multitype-4.2.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.drakeet.multitype/multitype/4.2.0/422dd3dfc6eaac47faced9b6fa94ca2fb9c50d30/multitype-4.2.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.drakeet.multitype/multitype/4.2.0/11a55e784496e832a1da7f077851e6a79317e074/multitype-4.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.drakeet.multitype/multitype/4.2.0/11a55e784496e832a1da7f077851e6a79317e074/multitype-4.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

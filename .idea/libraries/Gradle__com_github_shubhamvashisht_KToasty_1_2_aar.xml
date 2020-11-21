@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.shubhamvashisht:KToasty:1.2@aar">
     <CLASSES>
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/caab4f6104f60ee9be9e27af65c550ef/jetified-KToasty-1.2/res" />
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/caab4f6104f60ee9be9e27af65c550ef/jetified-KToasty-1.2/jars/classes.jar!/" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/caab4f6104f60ee9be9e27af65c550ef/jetified-KToasty-1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7de68d08fc2e55102f30210343809edc/jetified-KToasty-1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7de68d08fc2e55102f30210343809edc/jetified-KToasty-1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7de68d08fc2e55102f30210343809edc/jetified-KToasty-1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.github.shubhamvashisht/KToasty/1.2/ce4f097c32380700fba20067d1c6e892b29f13f3/KToasty-1.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shubhamvashisht/KToasty/1.2/ce4f097c32380700fba20067d1c6e892b29f13f3/KToasty-1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

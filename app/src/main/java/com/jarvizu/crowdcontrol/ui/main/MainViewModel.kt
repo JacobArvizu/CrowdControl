@@ -12,8 +12,8 @@ import kotlinx.coroutines.launch
 
 @ExperimentalCoroutinesApi
 class MainViewModel @ViewModelInject constructor(
-    private val authManager: AuthHelper,
-    @Assisted savedStateHandle: SavedStateHandle,
+        private val authManager: AuthHelper,
+        @Assisted savedStateHandle: SavedStateHandle,
 ) : ViewModel() {
     private val authState = MutableLiveData<AuthState>()
 
@@ -27,14 +27,14 @@ class MainViewModel @ViewModelInject constructor(
             authManager.getFirebaseUser().map {
                 flow { emit(it) }
             }.flowOn(Dispatchers.Default)
-                .catch { authState.postValue(AuthState.Invalid) }
-                .collect {
-                    val firebaseUser = it.single()
-                    when {
-                        firebaseUser != null -> authState.postValue(AuthState.Valid(firebaseUser))
-                        else -> authState.postValue(AuthState.Invalid)
+                    .catch { authState.postValue(AuthState.Invalid) }
+                    .collect {
+                        val firebaseUser = it.single()
+                        when {
+                            firebaseUser != null -> authState.postValue(AuthState.Valid(firebaseUser))
+                            else -> authState.postValue(AuthState.Invalid)
+                        }
                     }
-                }
         }
     }
 

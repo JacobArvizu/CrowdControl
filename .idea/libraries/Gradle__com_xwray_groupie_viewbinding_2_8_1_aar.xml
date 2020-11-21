@@ -1,17 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.xwray:groupie-viewbinding:2.8.1@aar">
     <CLASSES>
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/79aefa82a670d4fdbd5348695a4489ca/jetified-groupie-viewbinding-2.8.1/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/a248014513d5ab706f643c94eb8f02c4/jetified-groupie-viewbinding-2.8.1/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/55f186d607828af2d98fd021957b1e9d/jetified-groupie-viewbinding-2.8.1/AndroidManifest.xml" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/55f186d607828af2d98fd021957b1e9d/jetified-groupie-viewbinding-2.8.1/res" />
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/55f186d607828af2d98fd021957b1e9d/jetified-groupie-viewbinding-2.8.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d76b325b64ee579ce042cf03cec184c/jetified-groupie-viewbinding-2.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d76b325b64ee579ce042cf03cec184c/jetified-groupie-viewbinding-2.8.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d76b325b64ee579ce042cf03cec184c/jetified-groupie-viewbinding-2.8.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.xwray/groupie-viewbinding/2.8.1/cf32f2353d0b0460bb5f6f2995201a1703a11ccc/groupie-viewbinding-2.8.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xwray/groupie-viewbinding/2.8.1/cf32f2353d0b0460bb5f6f2995201a1703a11ccc/groupie-viewbinding-2.8.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.xwray/groupie-viewbinding/2.8.1/6e4ff098e1904c56b8c6b447cdabccc7183ada19/groupie-viewbinding-2.8.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xwray/groupie-viewbinding/2.8.1/6e4ff098e1904c56b8c6b447cdabccc7183ada19/groupie-viewbinding-2.8.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

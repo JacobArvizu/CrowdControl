@@ -1,17 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: io.michaelrocks:libphonenumber-android:8.8.5@aar">
     <CLASSES>
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/5a291536520e029fa9caee24298cad9f/jetified-libphonenumber-android-8.8.5/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/7c1398a01c0e04daad76d369b6920bc4/jetified-libphonenumber-android-8.8.5/res" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/cef076fad9723cf5a665058274a35a49/jetified-libphonenumber-android-8.8.5/AndroidManifest.xml" />
-      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/cef076fad9723cf5a665058274a35a49/jetified-libphonenumber-android-8.8.5/res" />
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/cef076fad9723cf5a665058274a35a49/jetified-libphonenumber-android-8.8.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/257cb46da958eee8f0074ddd8233b13b/jetified-libphonenumber-android-8.8.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/257cb46da958eee8f0074ddd8233b13b/jetified-libphonenumber-android-8.8.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/257cb46da958eee8f0074ddd8233b13b/jetified-libphonenumber-android-8.8.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/io.michaelrocks/libphonenumber-android/8.8.5/beca50981c2ddaeb1175d0e826ee9b8985689c31/libphonenumber-android-8.8.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.michaelrocks/libphonenumber-android/8.8.5/beca50981c2ddaeb1175d0e826ee9b8985689c31/libphonenumber-android-8.8.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/io.michaelrocks/libphonenumber-android/8.8.5/f1b09cc7830e5d057478ad81836b827c411ce5cf/libphonenumber-android-8.8.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.michaelrocks/libphonenumber-android/8.8.5/f1b09cc7830e5d057478ad81836b827c411ce5cf/libphonenumber-android-8.8.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

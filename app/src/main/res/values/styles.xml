@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
@@ -28,22 +28,4 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.MaterialDialog" parent="Theme.AppCompat">
-
-        <item name="md_color_title">@color/dracula_white</item>
-        <item name="md_color_content">@color/colorAccent</item>
-        <item name="md_background_color">@color/colorPrimaryDark</item>
-        <item name="md_color_button_text">@color/dracula_white</item>
-    </style>
-
-    <style name="Toolbar">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">?attr/actionBarSize</item>
-        <item name="android:background">?attr/colorPrimary</item>
-        <item name="layout_constraintEnd_toEndOf">parent</item>
-        <item name="layout_constraintStart_toStartOf">parent</item>
-        <item name="layout_constraintTop_toTopOf">parent</item>
-        <item name="titleTextColor">@color/colorPrimary</item>
-        <item name="android:elevation" tools:targetApi="lollipop">4dp</item>
-    </style>
 </resources>
