@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.afollestad.assent:core:3.0.0-RC4@aar">
+    <CLASSES>
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/ea164fa803c8c450f3371dce96426123/jetified-core-3.0.0-RC4/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/f8ac0c92995df8abbe024820ee982857/jetified-core-3.0.0-RC4/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6f05337b8d4516c617e83de33b3df8bf/jetified-core-3.0.0-RC4/AndroidManifest.xml" />
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6f05337b8d4516c617e83de33b3df8bf/jetified-core-3.0.0-RC4/jars/classes.jar!/" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6f05337b8d4516c617e83de33b3df8bf/jetified-core-3.0.0-RC4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.afollestad.assent/core/3.0.0-RC4/bd1653e6b5c971d67fc50c2841860a64252e2962/core-3.0.0-RC4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.afollestad.assent/core/3.0.0-RC4/98cfeb57076830f69079b0879a7f9e5a724990fa/core-3.0.0-RC4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

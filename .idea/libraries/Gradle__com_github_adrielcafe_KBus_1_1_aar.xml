@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.adrielcafe:KBus:1.1@aar">
+    <CLASSES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/96324aad4439c28684a4a607a65daccc/jetified-KBus-1.1/jars/classes.jar!/" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/96324aad4439c28684a4a607a65daccc/jetified-KBus-1.1/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/96324aad4439c28684a4a607a65daccc/jetified-KBus-1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.github.adrielcafe/KBus/1.1/fe7fef5defbb1f0d33ff998c113444a32ea9933f/KBus-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kittinunf.result:result-coroutines:3.1.0">
+    <CLASSES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.github.kittinunf.result/result-coroutines/3.1.0/8327c43f2207bd1eeb0c0b52a88e36aec44ecbe3/result-coroutines-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.github.kittinunf.result/result-coroutines/3.1.0/89fec2866a3e05bfee8c5d0b5eb9cdfee25bccfc/result-coroutines-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.github.kittinunf.result/result-coroutines/3.1.0/a4cfa2cb2b747aeb3b5c79292c14e9a75bfdc330/result-coroutines-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

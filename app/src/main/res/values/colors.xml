@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#44475a</color>
+    <color name="colorPrimaryDark">#282a36</color>
+    <color name="colorAccent">#bd93f9</color>
+
+    <color name="dracula_white">#f8f8f2</color>
+    <color name="dracula_green">#50fa7b</color>
+    <color name="dracula_red">#ff5555</color>
+
+
+</resources>

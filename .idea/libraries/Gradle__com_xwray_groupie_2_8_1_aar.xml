@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.xwray:groupie:2.8.1@aar">
+    <CLASSES>
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/1b4979ebfcb85f5d5325bb28d4ccef8f/jetified-groupie-2.8.1/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/543dac52fc120b83bcd9533d8d2cd77f/jetified-groupie-2.8.1/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/06f1603aaf96639c03cfd7b76291dbfc/jetified-groupie-2.8.1/AndroidManifest.xml" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/06f1603aaf96639c03cfd7b76291dbfc/jetified-groupie-2.8.1/res" />
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/06f1603aaf96639c03cfd7b76291dbfc/jetified-groupie-2.8.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.xwray/groupie/2.8.1/688f756eb461668fa28f7c9c8cc73f34909f3909/groupie-2.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.xwray/groupie/2.8.1/3510bb37f7253b2f1fb9d4afd312010d968f369d/groupie-2.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

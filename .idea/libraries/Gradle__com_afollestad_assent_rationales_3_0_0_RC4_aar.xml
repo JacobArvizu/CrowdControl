@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.afollestad.assent:rationales:3.0.0-RC4@aar">
+    <CLASSES>
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/7e39fc2e9d79603ee49bd6fe4cd8311f/jetified-rationales-3.0.0-RC4/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/8c0d8e8f51b985c62fc0d8932cea8697/jetified-rationales-3.0.0-RC4/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/4f294ef1ab0a43927d47633043802927/jetified-rationales-3.0.0-RC4/res" />
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/4f294ef1ab0a43927d47633043802927/jetified-rationales-3.0.0-RC4/jars/classes.jar!/" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/4f294ef1ab0a43927d47633043802927/jetified-rationales-3.0.0-RC4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.afollestad.assent/rationales/3.0.0-RC4/bc89a63daa516481b20ba0542897a617920cb350/rationales-3.0.0-RC4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.afollestad.assent/rationales/3.0.0-RC4/76281a542e60793f3f250841efc935768e1311ab/rationales-3.0.0-RC4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_otp_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otp_background"
+    android:gravity="center_horizontal"
+    tools:context=".ui.login.LoginActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/otpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/circular_std_bold"
+        android:text="@string/enter_verification_code"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/otpHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/circular_std_bold"
+        android:text="@string/please_enter_sms_verification_code"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otpTitle" />
+
+    <in.aabhasjindal.otptextview.OtpTextView
+        android:id="@+id/otpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dracula_white"
+        app:bar_active_color="@color/dracula_white"
+        app:bar_enabled="true"
+        app:bar_error_color="@color/dracula_red"
+        app:bar_height="1.5dp"
+        app:bar_inactive_color="@color/dracula_white"
+        app:bar_margin_bottom="0dp"
+        app:bar_margin_left="2dp"
+        app:bar_margin_right="2dp"
+        app:bar_success_color="@color/dracula_green"
+        app:box_margin="8dp"
+        app:height="40dp"
+        app:hide_otp="false"
+        app:layout_constraintBottom_toBottomOf="@id/otp_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/otpHint"
+        app:length="6"
+        app:otp=""
+        app:otp_text_size="20dp"
+        app:width="40dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/otp_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/circular_std_bold"
+        android:text="@string/submit"
+        android:textColor="@color/dracula_white"
+        app:cornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otpTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

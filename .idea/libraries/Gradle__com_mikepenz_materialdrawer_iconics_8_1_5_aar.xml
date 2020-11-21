@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikepenz:materialdrawer-iconics:8.1.5@aar">
+    <CLASSES>
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/6893ff444f43f19cf9f903421b7bf5a3/jetified-materialdrawer-iconics-8.1.5/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/28275d73500bc59749523457de6d748f/jetified-materialdrawer-iconics-8.1.5/res" />
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/644e89f64c2ebe24eedaa507946823fe/jetified-materialdrawer-iconics-8.1.5/jars/classes.jar!/" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/644e89f64c2ebe24eedaa507946823fe/jetified-materialdrawer-iconics-8.1.5/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/644e89f64c2ebe24eedaa507946823fe/jetified-materialdrawer-iconics-8.1.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.mikepenz/materialdrawer-iconics/8.1.5/6462637d08b9897400d9a4f3ce13cbd44e73ecd/materialdrawer-iconics-8.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.mikepenz/materialdrawer-iconics/8.1.5/36699cde7f6e94c64442bcb2b9bdc6617a8d4441/materialdrawer-iconics-8.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

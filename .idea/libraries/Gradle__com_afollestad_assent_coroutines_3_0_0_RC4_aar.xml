@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.afollestad.assent:coroutines:3.0.0-RC4@aar">
+    <CLASSES>
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/3414eefe6f88b58019d17eb2f8946ac4/jetified-coroutines-3.0.0-RC4/res" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/b1e2b98db925fbb655aace84f7fc0c66/jetified-coroutines-3.0.0-RC4/res" />
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/b9502809061391541f7b8558bbb2e006/jetified-coroutines-3.0.0-RC4/jars/classes.jar!/" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/b9502809061391541f7b8558bbb2e006/jetified-coroutines-3.0.0-RC4/AndroidManifest.xml" />
+      <root url="file:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/transforms-2/files-2.1/b9502809061391541f7b8558bbb2e006/jetified-coroutines-3.0.0-RC4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.afollestad.assent/coroutines/3.0.0-RC4/80f02ba9894705840c4faace8f9acd9ca6fa758b/coroutines-3.0.0-RC4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///usr/local/lib/sdkman/candidates/gradle/6.7.1/caches/modules-2/files-2.1/com.afollestad.assent/coroutines/3.0.0-RC4/5968ce6cbf5909b656cf60856b9c507922c5cdc3/coroutines-3.0.0-RC4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
