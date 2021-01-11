@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ibrahimsn98:SmoothBottomBar:1.7.6@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a152c6d2842c80bd07cbc3b4acfc6a59/jetified-SmoothBottomBar-1.7.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a152c6d2842c80bd07cbc3b4acfc6a59/jetified-SmoothBottomBar-1.7.6/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a152c6d2842c80bd07cbc3b4acfc6a59/jetified-SmoothBottomBar-1.7.6/AndroidManifest.xml" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/2c2f4ed31ebc6a11cac5753e31d887b3/transformed/jetified-SmoothBottomBar-1.7.6/jars/classes.jar!/" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/2c2f4ed31ebc6a11cac5753e31d887b3/transformed/jetified-SmoothBottomBar-1.7.6/res" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/2c2f4ed31ebc6a11cac5753e31d887b3/transformed/jetified-SmoothBottomBar-1.7.6/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ibrahimsn98/SmoothBottomBar/1.7.6/4597c7adf3162c5ab05a463d4a35829dd62242b/SmoothBottomBar-1.7.6-sources.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.github.ibrahimsn98/SmoothBottomBar/1.7.6/4597c7adf3162c5ab05a463d4a35829dd62242b/SmoothBottomBar-1.7.6-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

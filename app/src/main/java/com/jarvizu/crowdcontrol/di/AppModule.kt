@@ -1,6 +1,5 @@
 package com.jarvizu.crowdcontrol.di
 
-import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 import com.google.android.libraries.places.api.Places
@@ -17,15 +16,14 @@ import dagger.hilt.components.SingletonComponent
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
+    @JvmStatic
     @Provides
-    fun provideSharedPreferences(
-            @ApplicationContext application: Context
-    ): SharedPreferences {
-        return application.getSharedPreferences(
-                CrowdControl.APP_NAME,
-                Context.MODE_PRIVATE
-        )
-    }
+    fun sharedPref(@ApplicationContext application: Context): SharedPreferences =
+        application.getSharedPreferences(CrowdControl.APP_NAME, Context.MODE_PRIVATE)
+
+
+    @Provides
+    fun application(application: Context): Context = application
 
     @Provides
     fun providePlacesClient(@ApplicationContext context: Context) = Places.createClient(context)
@@ -33,6 +31,4 @@ object AppModule {
     @Provides
     fun firebaseAuth(): FirebaseAuth = FirebaseAuth.getInstance()
 
-    @Provides
-    fun application(app: Application): Context = app
 }

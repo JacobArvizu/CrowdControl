@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1432184038/Android.CrowdControl.iml" filepath="$PROJECT_DIR$/.idea/modules/1432184038/Android.CrowdControl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-322217608/Android.CrowdControl.app.iml" filepath="$PROJECT_DIR$/.idea/modules/-322217608/Android.CrowdControl.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CrowdControl.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CrowdControl.app.iml" />
     </modules>
   </component>
 </project>

@@ -6,23 +6,31 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import cafe.adriel.kbus.KBus
+import androidx.navigation.fragment.navArgs
+import com.google.firebase.auth.PhoneAuthOptions
+import com.google.firebase.auth.PhoneAuthProvider
 import com.jarvizu.crowdcontrol.BuildConfig
 import com.jarvizu.crowdcontrol.databinding.FragmentOtpScreenBinding
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import java.util.concurrent.TimeUnit
 
 @AndroidEntryPoint
 class LoginOtpFragment : Fragment() {
 
+    @ExperimentalCoroutinesApi
     private val viewModel: LoginViewModel by viewModels()
     private lateinit var binding: FragmentOtpScreenBinding
+    val args: LoginOtpFragmentArgs by navArgs()
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         binding = FragmentOtpScreenBinding.inflate(inflater, container, false)
+        val arguments: LoginOtpFragmentArgs = LoginOtpFragmentArgs.fromBundle(arguments as Bundle)
+
         return binding.root
     }
 
@@ -32,10 +40,13 @@ class LoginOtpFragment : Fragment() {
             binding.otpTextView.setOTP("242424")
         }
 
-        binding.otpButton.setOnClickListener {
-            val otpCode: String = binding.otpTextView.otp.toString()
-            KBus.post(LoginActivity.LoginOtpEvent(otpCode))
+
+        with(binding) {
+            otpButton.setOnClickListener {
+                val otpCode: String = binding.otpTextView.otp.toString()
+            }
         }
     }
+
 }
 

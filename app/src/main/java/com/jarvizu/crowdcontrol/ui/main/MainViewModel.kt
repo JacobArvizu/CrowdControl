@@ -3,43 +3,20 @@ package com.jarvizu.crowdcontrol.ui.main
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
-import com.jarvizu.crowdcontrol.data.AuthHelper
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.jarvizu.crowdcontrol.app.AuthManager
+import com.jarvizu.crowdcontrol.data.AuthRepository
 import com.jarvizu.crowdcontrol.data.AuthState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
+import okhttp3.internal.wait
 
 @ExperimentalCoroutinesApi
-class MainViewModel @ViewModelInject constructor(
-        private val authManager: AuthHelper,
-        @Assisted savedStateHandle: SavedStateHandle,
-) : ViewModel() {
-    private val authState = MutableLiveData<AuthState>()
+class MainViewModel @ViewModelInject constructor(private val authRepository: AuthRepository) : ViewModel() {
 
-    init {
-        fetchUsers()
-    }
-
-    private fun fetchUsers() {
-        viewModelScope.launch {
-            authState.postValue(AuthState.Loading)
-            authManager.getFirebaseUser().map {
-                flow { emit(it) }
-            }.flowOn(Dispatchers.Default)
-                    .catch { authState.postValue(AuthState.Invalid) }
-                    .collect {
-                        val firebaseUser = it.single()
-                        when {
-                            firebaseUser != null -> authState.postValue(AuthState.Valid(firebaseUser))
-                            else -> authState.postValue(AuthState.Invalid)
-                        }
-                    }
-        }
-    }
-
-    fun getAuthState(): LiveData<AuthState> {
-        return authState
-    }
+    fun getAuthState() = authRepository.getAuthData
 }
-

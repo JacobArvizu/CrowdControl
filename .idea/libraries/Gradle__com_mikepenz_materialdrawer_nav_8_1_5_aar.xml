@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:materialdrawer-nav:8.1.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b5d48b4b0cc46f0a59c05f6bd1c8b65/jetified-materialdrawer-nav-8.1.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b5d48b4b0cc46f0a59c05f6bd1c8b65/jetified-materialdrawer-nav-8.1.5/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b5d48b4b0cc46f0a59c05f6bd1c8b65/jetified-materialdrawer-nav-8.1.5/AndroidManifest.xml" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/12992910e7fe18e93bfb7a9a3962e6e0/transformed/jetified-materialdrawer-nav-8.1.5/jars/classes.jar!/" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/12992910e7fe18e93bfb7a9a3962e6e0/transformed/jetified-materialdrawer-nav-8.1.5/res" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/12992910e7fe18e93bfb7a9a3962e6e0/transformed/jetified-materialdrawer-nav-8.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/materialdrawer-nav/8.1.5/c227fe3ed2830133a228c81d1db5c5d56e5035cf/materialdrawer-nav-8.1.5-javadoc.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.mikepenz/materialdrawer-nav/8.1.5/c227fe3ed2830133a228c81d1db5c5d56e5035cf/materialdrawer-nav-8.1.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/materialdrawer-nav/8.1.5/d811114aedb1c8166d2d9f560b67832b85cffd74/materialdrawer-nav-8.1.5-sources.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.mikepenz/materialdrawer-nav/8.1.5/d811114aedb1c8166d2d9f560b67832b85cffd74/materialdrawer-nav-8.1.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
