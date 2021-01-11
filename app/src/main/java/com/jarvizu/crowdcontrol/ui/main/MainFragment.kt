@@ -45,7 +45,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
     // Use the builder to create a FindCurrentPlaceRequest.
 
     override fun onCreateView(
-            inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         binding = FragmentMainBinding.inflate(inflater, container, false)
         Timber.d("Main Fragment")
@@ -66,7 +66,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
                 val response = task.result
                 for (placeLikelihood: PlaceLikelihood in response?.placeLikelihoods
-                        ?: emptyList()) {
+                    ?: emptyList()) {
                     try {
                         placeNames.add(placeLikelihood.place.name!!)
                     } catch (e: Exception) {
@@ -82,11 +82,11 @@ class MainFragment : Fragment(R.layout.fragment_main) {
             }
 
             Alerter.create(requireActivity())
-                    .setTitle("Nearby venues loaded")
-                    .setText("Select current venue")
-                    .setBackgroundColorRes(R.color.dracula_green)
-                    .setLayoutGravity(Gravity.BOTTOM)
-                    .show()
+                .setTitle("Nearby venues loaded")
+                .setText("Select current venue")
+                .setBackgroundColorRes(R.color.dracula_green)
+                .setLayoutGravity(Gravity.BOTTOM)
+                .show()
         }
     }
 

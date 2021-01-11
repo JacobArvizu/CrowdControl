@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.adrielcafe:KBus:1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfbca5cb30614b716c8b41745b2adbe9/jetified-KBus-1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfbca5cb30614b716c8b41745b2adbe9/jetified-KBus-1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bfbca5cb30614b716c8b41745b2adbe9/jetified-KBus-1.1/AndroidManifest.xml" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/6042279ce334219f968baf566d658050/transformed/jetified-KBus-1.1/jars/classes.jar!/" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/6042279ce334219f968baf566d658050/transformed/jetified-KBus-1.1/res" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/6042279ce334219f968baf566d658050/transformed/jetified-KBus-1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.adrielcafe/KBus/1.1/fe7fef5defbb1f0d33ff998c113444a32ea9933f/KBus-1.1-sources.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.github.adrielcafe/KBus/1.1/fe7fef5defbb1f0d33ff998c113444a32ea9933f/KBus-1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

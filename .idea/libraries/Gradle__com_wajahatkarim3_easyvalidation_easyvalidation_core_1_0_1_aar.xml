@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.wajahatkarim3.easyvalidation:easyvalidation-core:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56c6e40fdf626f24ae0baeddc7d79445/jetified-easyvalidation-core-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56c6e40fdf626f24ae0baeddc7d79445/jetified-easyvalidation-core-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56c6e40fdf626f24ae0baeddc7d79445/jetified-easyvalidation-core-1.0.1/AndroidManifest.xml" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/81637e203b9a587e845d379f62c981ef/transformed/jetified-easyvalidation-core-1.0.1/jars/classes.jar!/" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/81637e203b9a587e845d379f62c981ef/transformed/jetified-easyvalidation-core-1.0.1/res" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/81637e203b9a587e845d379f62c981ef/transformed/jetified-easyvalidation-core-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wajahatkarim3.easyvalidation/easyvalidation-core/1.0.1/7e8d1c0f9eba6a0335a7ba78953d169fadb7c2dd/easyvalidation-core-1.0.1-javadoc.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.wajahatkarim3.easyvalidation/easyvalidation-core/1.0.1/7e8d1c0f9eba6a0335a7ba78953d169fadb7c2dd/easyvalidation-core-1.0.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wajahatkarim3.easyvalidation/easyvalidation-core/1.0.1/8ea0e60686994ffbdcb1ff556198f2de7fe34efc/easyvalidation-core-1.0.1-sources.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.wajahatkarim3.easyvalidation/easyvalidation-core/1.0.1/8ea0e60686994ffbdcb1ff556198f2de7fe34efc/easyvalidation-core-1.0.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

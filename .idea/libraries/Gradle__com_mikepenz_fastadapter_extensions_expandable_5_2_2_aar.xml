@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:fastadapter-extensions-expandable:5.2.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58f89d29ede52118441243a6ff15136a/jetified-fastadapter-extensions-expandable-5.2.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58f89d29ede52118441243a6ff15136a/jetified-fastadapter-extensions-expandable-5.2.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58f89d29ede52118441243a6ff15136a/jetified-fastadapter-extensions-expandable-5.2.2/AndroidManifest.xml" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/334df11980eb5e013c1d4ed43c34a8a8/transformed/jetified-fastadapter-extensions-expandable-5.2.2/jars/classes.jar!/" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/334df11980eb5e013c1d4ed43c34a8a8/transformed/jetified-fastadapter-extensions-expandable-5.2.2/res" />
+      <root url="file:///usr/local/share/.sdkman/candidates/gradle/caches/transforms-3/334df11980eb5e013c1d4ed43c34a8a8/transformed/jetified-fastadapter-extensions-expandable-5.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/41035702df658544fd87ea2100d5d3f0f8b9665a/fastadapter-extensions-expandable-5.2.2-javadoc.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/41035702df658544fd87ea2100d5d3f0f8b9665a/fastadapter-extensions-expandable-5.2.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/cf0cb3119bb6884db3892c08d0cc538acd74463f/fastadapter-extensions-expandable-5.2.2-sources.jar!/" />
+      <root url="jar:///usr/local/share/.sdkman/candidates/gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter-extensions-expandable/5.2.2/cf0cb3119bb6884db3892c08d0cc538acd74463f/fastadapter-extensions-expandable-5.2.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

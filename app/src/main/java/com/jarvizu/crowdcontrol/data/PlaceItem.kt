@@ -23,8 +23,8 @@ class PlaceItem(private val placeName: String) : BindableItem<ItemPlaceBinding>(
     override fun bind(viewBinding: ItemPlaceBinding, position: Int) {
         viewBinding.placeTitle.text = placeName
         Glide.with(viewBinding.root).load("url")
-                .placeholder(R.drawable.ic_business_placeholder)
-                .into(viewBinding.placeImageView)
+            .placeholder(R.drawable.ic_business_placeholder)
+            .into(viewBinding.placeImageView)
     }
 
 }
